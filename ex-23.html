@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the webpage -->
+    <title>Fixed Banner</title>
+    <!-- & Link to the CSS file Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ This is the space near the top of the webpage that will make it easier to understand and navigate the webpage -->
+    <header class="flex-container">
+        <img class="header-img" src="img/header/maiden-gazing-upon-the-forest-and-cherry-blossom-trees-as-the-rain-falls.png" alt="">
+        <hr class="vertical-divider">
+        <h1>🌸 Fixed Banner 🌸</h1>
+        <hr class="vertical-divider">
+        <img class="header-img" src="img/header/maiden-gazing-upon-the-forest-and-cherry-blossom-trees-as-the-rain-falls.png" alt="">
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go -->
+    <main>
+        <!-- & Section
+        ~ This groups together similar pieces of information -->
+        <!-- & This section will discuss what position: fixed is -->
+        <section>
+            <h2>Position: Fixed</h2>
+            <hr class="title-divider">
+            <br>
+
+            <ul>
+                <li>
+                    The <b>fixed</b> position works similar to <b>absolute</b> by taking an element out of the normal flow of the page. However, <b>fixed</b> elements stay where they are placed on the screen even when you <i>scroll</i> up and down of the page.
+                </li>
+                <li>
+                    This draft HTML:
+                    <br>
+                    <img class="main-img" src="img/main/html-draft.png" alt="Draft HTML Syntax" width="45%">
+                </li>
+                <li>
+                    If you want to ensure the <b>ul</b> unordered list element was always on the page no matter where we scrolled on our site:
+                    <br>
+                    <img class="main-img" src="img/main/css-ul-always-on-the-page-even-when-scroll.png" alt="CSS to make sure Unordered List always show on page" width="40%">
+                </li>
+                <li>
+                    With the <b>position</b> of the <b>ul</b> unordered list element set to <b>fixed</b>, we'd get something like the following:
+                    <br>
+                    <img class="main-img" src="img/main/rendered-fixed-ul.png" alt="Rendered Fixed Unordered List" width="50%">
+                    <br>
+                    <img class="main-img" src="img/main/rendered-fixed-ul-pt2.png" alt="Rendered Fixed Unordered List" width="50%">
+                    <br>
+                    <img class="main-img" src="img/main/rendered-fixed-ul-pt3.png" alt="Rendered Fixed Unordered List" width="50%">
+                </li>
+            </ul>
+        </section>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where the important inforamtion will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended sources or parts of the webpage
+            ~ In the <a> element -> use the following for the "href" attribute
+                ~ href = "/privacy"
+            ~ Also use the "target" attribute to open the link in a new web browser tab
+                ~ target = "_blank"
+            ~ Copyright information
+                ~ &copy; -> this is will show the symbol for copyright
+    -->
+    <footer class="flex-container">
+        <img class="footer-img" src="img/footer/maiden-walks-through-the-bamboo-forest.png" alt="Maiden walks through the Bamboo Forest">
+        <hr class="vertical-divider">
+        <p>&copy; 2025 EtariaL33. All rights reserved.</p>
+        <hr class="vertical-divider">
+        <img class="footer-img" src="img/footer/maiden-walks-through-the-bamboo-forest.png" alt="Maiden walks through the Bamboo Forest">
+    </footer>
+</body>
+</html>
+

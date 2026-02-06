@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the webpage -->
+    <title>Fixed Banner II</title>
+    <!--& Link to the CSS file to style the webpage -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ This is the space at the top of the webpage that will make it easier to understand and navigate the webpage
+    -->
+    <header>
+        <!-- ~ This will how the header image and the title of the webpage -->
+        <heading class="flex-container">
+            <img
+                class="header-img"
+                src="img/header/maiden-gazing-upon-the-forest-and-cherry-blossom-trees-as-the-rain-falls.png"
+                alt="Maiden gazing upon the forest and cherry blossom trees as the rain falls"
+            >
+            <hr class="vertical-divider">
+            <h1>🌸 Fixed Banner II 🌸</h1>
+            <hr class="vertical-divider">
+            <img
+                class="header-img"
+                src="img/header/maiden-gazing-upon-the-forest-and-cherry-blossom-trees-as-the-rain-falls.png"
+                alt="Maiden gazing upon the forest and cherry blossom trees as the rain falls"
+            >
+        </heading>
+        <br>
+        <hr class="header-divider">
+        <br>
+
+        <!-- ~ This will be the sub-heading for the webpage -->
+        <sub-heading>
+            <h2>Rendezvous</h2>
+            <hr class="title-divider">
+            <br>
+            <p>Top-notch 1:1 Instructor!!!</p>
+        </sub-heading>
+
+        <!-- & Nav Bar
+        ~ Links that will navigate to the other parts of the webpage
+        -->
+        <nav>
+            <ul class="nav-bar">
+                <li>
+                    <a
+                        href="#notification-section" class="nav-list">Notifications</a>
+                </li>
+                <li>
+                    <a href="#story-section" class="nav-list">Story</a>
+                </li>
+                <li>
+                    <a href="#services-section" class="nav-list">Services</a>
+                </li>
+                <li>
+                    <a href="#contact-section" class="nav-list">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go
+    -->
+    <main>
+        <!-- & Section
+        ~ This groups together similar pieces of information
+        -->
+        <!-- & This section will be about the notifications -->
+        <section id="notification-section">
+            <details>
+                <summary>
+                    <strong>New Course Offerings!</strong>
+                </summary>
+                <p>
+                    We've got a new 6-week course on video editing where you get to meet one-on-one with an industry professional each week! Join <u>here</u>!
+                </p>
+            </details>
+        </section>
+        <br>
+        <hr class="main-divider">
+        <br>
+
+        <!-- & This section will be about the story -->
+        <section id="story-section">
+        <h2>Our Story</h2>
+        <hr class="title-divider">
+        <br>
+
+        <p>
+            For over 15 years, we have provided an impactful, results-focused tutoring experience to all of our pupils!
+        </p>
+        <p>
+            It all started as homework-help between two friends at the library. One friend needed the other's help with algebra and how they could apply it in everyday life.
+        </p>
+        <img
+            id="story-img"
+            src="https://cdn.pixabay.com/photo/2022/11/21/09/43/success-7606515_1280.jpg"
+            alt="Laptop with 3D popout of a two people cheering"
+        >
+        </section>
+        <br>
+        <hr class="main-divider">
+        <br>
+
+        <!-- & This section will be about the services -->
+        <section id="services-section">
+            <h2>Services</h2>
+            <hr class="title-divider">
+            <br>
+
+            <p>
+                We offer a multitude of tutoring services across many platforms, including:
+            </p>
+            <ul>
+                <li>
+                    One-on-one tutoring sessions with seasoend industry professionals
+                </li>
+                <li>
+                    A vast tutoring network covering over 10 industries and over 50 skills, trades, and disciplines.
+                </li>
+                <li>
+                    Chapter meetips for "lightning round-ezvous" events across 25 U.S. cities!
+                </li>
+            </ul>
+        </section>
+        <br>
+        <hr class="main-divider">
+        <br>
+
+        <!-- & This section will discuss how to Contact Us -->
+        <section id="contact-section">
+            <h2>Contact Us</h2>
+            <hr class="title-divider">
+            <br>
+
+            <p>
+                Interes in upskilling with Rendezvous Tutoring? Feel free to sign-up with your email below to learn more!
+            </p>
+
+            <!-- ~ This form is how to contact us through email -->
+            <form>
+                <!-- ~ The label and input for the email address -->
+                <label>Email: </label>
+                <input
+                    type="email"
+                    placeholder="Please enter your email: yourself@email.com"
+                >
+                <br>
+
+                <!-- ~ The input for the submit button -->
+                <input type="submit" value="Sign Up">
+            </form>
+        </section>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where the important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended sources or parts of the webpage
+            ~ In the <a> element -> use the following for the "href" attribute
+                ~ href = "/privacy"
+            ~ Also use the "target" attribute to open the link in a new web browser tab
+                ~ target = "_blank"
+            ~ Copyright information
+                ~ &copy; -> this is the symbol for copyright
+    -->
+    <footer class="flex-container">
+        <img
+            class="footer-img"
+            src="img/footer/maiden-walks-through-the-bamboo-forest.png"
+            alt=""
+        >
+        <hr class="vertical-divider">
+        <p>
+            &copy; 2026 EtariaL33. All rights reserved.
+        </p>
+        <hr class="vertical-divider">
+        <img
+            class="footer-img"
+            src="img/footer/maiden-walks-through-the-bamboo-forest.png"
+            alt=""
+        >
+    </footer>
+</body>
+</html>
