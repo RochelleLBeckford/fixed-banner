@@ -73,6 +73,10 @@ h1 {
 /* & ------------------------------ */
 
 /* ~ This will style the header additions for the index.html webpage */
+/* heading > h1 {
+    position: fixed;
+} */
+
 sub-heading > p {
     text-align: center;
     border-bottom: 5px solid #d5ffc0;
